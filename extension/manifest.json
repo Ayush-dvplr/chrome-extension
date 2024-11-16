@@ -1,0 +1,13 @@
+{
+  "name": "Himalaya extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "send extracted text request to server",
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1:5500/page/index.html"],
+      "js": ["content.js"]
+    }
+  ]
+}
