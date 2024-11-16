@@ -1,0 +1,5 @@
+To install librarires run : 
+pip install -r requirements.txt
+
+To start server run:
+python server.py
